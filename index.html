@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radar - BackRedirect</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/backredirect.css">
+    <!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-HHVFX3HTTL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'GL');
+</script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="images/logo-radar.png" alt="WhatsSpy Logo" class="logo">
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="box warning-box">
+            <div class="alert">
+                <strong>O NÚMERO VAI RECEBER UM ALERTA DIZENDO QUE VOCÊ ESTÁ MONITORANDO ELE!</strong>
+            </div>
+
+            <div class="caution">
+                <h2>⚠️ CUIDADO ⚠️</h2>
+                <p>Na versão gratuita o número que você está investigando pode receber uma notificação falando que você está investigando ele.</p>
+
+                <p>Não deixe isso acontecer. Assine a versão paga do aplicativo e não deixe que o número receba uma notificação falando que você tentou monitorar ele.</p>
+
+                <p>Continue monitorando e vendo todo conteúdo que quiser sem que ela seja notificada.</p>
+
+                <p>Veja conversas, mensagens, prints, fotos apagadas e localização!</p>
+            </div>
+
+            <a href="https://go.tribopay.com/dgni9" class="cta-button">
+                <span>ACESSAR VERSÃO PAGA COM DESCONTO!</span>
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <img src="images/logo-radar.png" alt="WhatsSpy Logo" class="footer-logo">
+        <p>Termos de Uso - Políticas de Privacidade</p>
+        <p>Radar Fiel 2024 ©</p>
+    </footer>
+
+    <script src="js/script.js" defer=""></script>
+    <script>
+        window.onload = function () {
+            var links = document.getElementsByTagName("a");
+            for (var i = 0, n = links.length; i < n; i++) {
+                var href = links[i].href.trim() +
+                        (links[i].href.indexOf("?") > 0 ? '&' : '?') +
+                        document.location.search.replace('?', '').toString();
+                links[i].href = href;
+            }
+        }
+    </script>
+    <script disable-devtool-auto="" src="https://cdn.jsdelivr.net/npm/disable-devtool" url="/curioso.html"></script>
+
+
+
+</body></html>
